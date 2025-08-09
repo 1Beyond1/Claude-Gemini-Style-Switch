@@ -1,6 +1,6 @@
 ---
 
-### **Gemini-to-Claude-Converter**
+### **Claude-Gemini-Style-Switch**
 A plugin to transform Gemini's UI and font style to mimic Claude's.
 
 **Version:** 1.5.1
