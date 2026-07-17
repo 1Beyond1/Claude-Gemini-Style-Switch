@@ -35,9 +35,13 @@ The Gemini-to-Claude-Converter is a Tampermonkey script that replaces the font o
 - **Safari**: 安装"Tampermonkey Safari"
 
 #### 2. 安装脚本
-1. 安装好Tampermonkey后，点击浏览器工具栏中的油猴图标。
+[点击这里一键安装脚本](https://raw.githubusercontent.com/1Beyond1/Claude-Gemini-Style-Switch/main/claude-gemini-style-switch.user.js)。Tampermonkey 会自动打开安装页面。
+
+如果没有自动打开，也可以手动安装：
+
+1. 点击浏览器工具栏中的油猴图标。
 2. 选择"创建新脚本"。
-3. 删除默认内容，粘贴完整的脚本代码。
+3. 删除默认内容，粘贴[完整脚本代码](claude-gemini-style-switch.user.js)。
 4. 按 `Ctrl + S` 保存脚本。
 
 **English:**
@@ -49,9 +53,13 @@ First, you need to install the Tampermonkey browser extension:
 - **Safari**: Install "Tampermonkey Safari".
 
 #### 2. Install the Script
-1. After installing Tampermonkey, click the icon in your browser's toolbar.
+[Click here to install the script](https://raw.githubusercontent.com/1Beyond1/Claude-Gemini-Style-Switch/main/claude-gemini-style-switch.user.js). Tampermonkey will open the installation page automatically.
+
+If it does not open automatically, install it manually:
+
+1. Click the Tampermonkey icon in your browser's toolbar.
 2. Select "Create a new script".
-3. Delete the default content and paste the complete script code.
+3. Delete the default content and paste the [complete script code](claude-gemini-style-switch.user.js).
 4. Press `Ctrl + S` to save the script.
 
 ---
@@ -303,7 +311,9 @@ A:
 ### 更新日志 (Changelog)
 
 **中文：**
-#### v1.5.0 (当前版本)
+#### v1.5.1 (当前版本)
+
+-  上传完整油猴脚本并支持一键安装与自动更新。
 - ✨ 新增欢迎词Claude主题色功能。
 -  支持多语言欢迎词识别。
 -  优化DOM检测机制。
@@ -315,7 +325,9 @@ A:
 - ⚡ 提升页面加载性能。
 
 **English:**
-#### v1.5.0 (Current Version)
+#### v1.5.1 (Current Version)
+
+-  Published the complete userscript with one-click installation and automatic updates.
 - ✨ Added a feature to change the welcome message to Claude's theme color.
 -  Supports multi-language welcome message recognition.
 -  Optimized the DOM detection mechanism.
@@ -348,14 +360,14 @@ A:
 
 **中文：**
 如果在使用过程中遇到问题：
-1. **检查版本**: 确保使用的是v1.5.0版本。
+1. **检查版本**: 确保使用的是v1.5.1版本。
 2. **查看控制台**: 按F12打开开发者工具查看错误信息。
 3. **重新安装**: 删除旧版本脚本，重新安装最新版本。
 4. **清除数据**: 在Tampermonkey中重置脚本数据。
 
 **English:**
 If you encounter any issues during use:
-1. **Check the Version**: Make sure you are using version v1.5.0.
+1. **Check the Version**: Make sure you are using version v1.5.1.
 2. **Check the Console**: Press F12 to open the developer tools and check for any error messages.
 3. **Reinstall**: Delete the old version of the script and reinstall the latest one.
 4. **Clear Data**: Reset the script data in Tampermonkey.
