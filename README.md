@@ -1,9 +1,16 @@
----
+# Claude-Gemini-Style-Switch
 
-### **Claude-Gemini-Style-Switch**
+> [!WARNING]
+> **项目已归档，等待更新。**
+>
+> Gemini 官方已经更新页面 UI 和 DOM 结构，当前 v1.5.1 版本的样式选择器与交互逻辑已经过时，无法保证正常工作。本仓库暂时归档，仅保留代码作为历史参考，等待未来重新适配新版 Gemini。
+>
+> **This project is archived pending an update.** Gemini's official UI and DOM structure have changed, so v1.5.1 is outdated and may no longer work correctly. The repository is retained for historical reference until a new compatible version is developed.
+
 A plugin to transform Gemini's UI and font style to mimic Claude's.
 
-**Version:** 1.5.1
+**Version:** 1.5.1 (outdated)
+**Status:** Archived / Waiting for update
 **License:** MIT
 
 ---
@@ -26,6 +33,11 @@ The Gemini-to-Claude-Converter is a Tampermonkey script that replaces the font o
 
 ### 安装步骤 (Installation Guide)
 
+> [!CAUTION]
+> 当前版本已过时，不建议继续安装或使用。以下内容仅作为历史文档保留。
+>
+> The current version is outdated and is not recommended for installation or use. The instructions below are preserved for historical reference only.
+
 **中文：**
 #### 1. 安装油猴插件
 首先需要在浏览器中安装Tampermonkey（油猴）插件：
@@ -35,9 +47,9 @@ The Gemini-to-Claude-Converter is a Tampermonkey script that replaces the font o
 - **Safari**: 安装"Tampermonkey Safari"
 
 #### 2. 安装脚本
-[点击这里一键安装脚本](https://raw.githubusercontent.com/1Beyond1/Claude-Gemini-Style-Switch/main/claude-gemini-style-switch.user.js)。Tampermonkey 会自动打开安装页面。
+一键安装已暂停。历史版本源码仍可在仓库中查看：[claude-gemini-style-switch.user.js](claude-gemini-style-switch.user.js)。
 
-如果没有自动打开，也可以手动安装：
+如需研究或复现历史版本，可以手动安装，但不保证在当前 Gemini 页面正常工作：
 
 1. 点击浏览器工具栏中的油猴图标。
 2. 选择"创建新脚本"。
@@ -53,9 +65,9 @@ First, you need to install the Tampermonkey browser extension:
 - **Safari**: Install "Tampermonkey Safari".
 
 #### 2. Install the Script
-[Click here to install the script](https://raw.githubusercontent.com/1Beyond1/Claude-Gemini-Style-Switch/main/claude-gemini-style-switch.user.js). Tampermonkey will open the installation page automatically.
+One-click installation has been suspended. The historical source remains available at [claude-gemini-style-switch.user.js](claude-gemini-style-switch.user.js).
 
-If it does not open automatically, install it manually:
+To inspect or reproduce the historical version, install it manually; compatibility with the current Gemini interface is not guaranteed:
 
 1. Click the Tampermonkey icon in your browser's toolbar.
 2. Select "Create a new script".
@@ -311,6 +323,12 @@ A:
 ### 更新日志 (Changelog)
 
 **中文：**
+#### 归档状态（2026-07-17）
+
+- Gemini 官方更新了页面 UI 和 DOM 结构。
+- v1.5.1 已过时，无法保证字体切换、按钮和欢迎词主题色功能正常工作。
+- 项目暂时归档并停止维护，等待未来适配新版 Gemini。
+
 #### v1.5.1 (当前版本)
 
 -  上传完整油猴脚本并支持一键安装与自动更新。
@@ -325,6 +343,12 @@ A:
 - ⚡ 提升页面加载性能。
 
 **English:**
+#### Archived (2026-07-17)
+
+- Gemini's official UI and DOM structure changed.
+- v1.5.1 is outdated; font switching, the toggle button, and welcome-message coloring may no longer work correctly.
+- The project is archived and maintenance is paused until a future Gemini-compatible update is available.
+
 #### v1.5.1 (Current Version)
 
 -  Published the complete userscript with one-click installation and automatic updates.
@@ -359,20 +383,12 @@ A:
 ### 技术支持 (Technical Support)
 
 **中文：**
-如果在使用过程中遇到问题：
-1. **检查版本**: 确保使用的是v1.5.1版本。
-2. **查看控制台**: 按F12打开开发者工具查看错误信息。
-3. **重新安装**: 删除旧版本脚本，重新安装最新版本。
-4. **清除数据**: 在Tampermonkey中重置脚本数据。
+项目当前处于归档状态，暂停兼容性修复和技术支持。v1.5.1 在新版 Gemini 页面失效属于已知情况，请等待后续适配版本。
 
 **English:**
-If you encounter any issues during use:
-1. **Check the Version**: Make sure you are using version v1.5.1.
-2. **Check the Console**: Press F12 to open the developer tools and check for any error messages.
-3. **Reinstall**: Delete the old version of the script and reinstall the latest one.
-4. **Clear Data**: Reset the script data in Tampermonkey.
+The project is currently archived, and compatibility fixes and technical support are paused. v1.5.1 is known to be outdated on the redesigned Gemini interface; please wait for a future compatible release.
 
 ---
 
-*最后更新: 2025年8月*
-*Last updated: August 2025*
+*最后更新: 2026年7月17日*
+*Last updated: July 17, 2026*
